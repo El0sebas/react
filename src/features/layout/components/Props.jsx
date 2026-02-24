@@ -1,7 +1,7 @@
 import Avatar from "./Avatar"
-import hitler from ".././../../../public/images/hitler.jpg"
-import kim from ".././../../../public/images/kim.jpg"
-import putin from ".././../../../public/images/putin.jpg"
+import hitler from "/react/images/hitler.jpg"
+import kim from "/react/images/kim.jpg"
+import putin from "/react/images/putin.jpg"
 const Props = () => {
   return (
     <div className="container text-center mt-5">

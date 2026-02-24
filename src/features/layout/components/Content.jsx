@@ -9,7 +9,7 @@ export const Content = () => {
       categoria: "Cosas inutiles",
       precio: 15000000,
       stock: 1,
-      imagen: ".././../../../public/images/dorito.jpg",
+      imagen: "/react/images/dorito.jpg",
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ export const Content = () => {
       categoria: "Animales exoticos",
       precio: 2490000,
       stock:69,
-      imagen: ".././../../../public/images/gorila.jpg",
+      imagen: "/react/images/gorila.jpg",
     },
   ]);
 
