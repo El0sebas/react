@@ -1,16 +1,95 @@
-# React + Vite
+# 🛒 Carrito de Compras - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto desarrollado con React y Vite como práctica de:
 
-Currently, two official plugins are available:
+-   Componentes
+-   Props
+-   useState
+-   React Router
+-   Bootstrap
+-   Manejo de imágenes en Vite
+-   Deploy en GitHub Pages
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+------------------------------------------------------------------------
 
-## React Compiler
+## 🚀 Tecnologías usadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   React
+-   Vite
+-   React Router DOM
+-   Bootstrap 5
+-   Git & GitHub
 
-## Expanding the ESLint configuration
+------------------------------------------------------------------------
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Estructura del Proyecto
+
+src/ ├── features/ │ └── layout/ │ └── components/ │ ├── Header.jsx │
+├── Footer.jsx │ ├── Content.jsx │ ├── Props.jsx │ └── Avatar.jsx ├──
+App.jsx └── main.jsx
+
+public/ └── images/
+
+------------------------------------------------------------------------
+
+## 📸 Funcionalidades
+
+✔ Agregar productos\
+✔ Eliminar productos\
+✔ Mostrar imágenes dinámicamente\
+✔ Uso de Props con componente Avatar\
+✔ Manejo de rutas con React Router
+
+------------------------------------------------------------------------
+
+## 🖼 Manejo de imágenes en Vite
+
+Las imágenes ubicadas en `public/images` se acceden usando:
+
+`${import.meta.env.BASE_URL}images/nombre.jpg`
+
+Esto permite que funcionen correctamente en GitHub Pages.
+
+------------------------------------------------------------------------
+
+## ⚙️ Instalación
+
+Clonar repositorio:
+
+git clone https://github.com/TU-USUARIO/react.git
+
+Entrar al proyecto:
+
+cd react
+
+Instalar dependencias:
+
+npm install
+
+Ejecutar en desarrollo:
+
+npm run dev
+
+------------------------------------------------------------------------
+
+## 📦 Build para producción
+
+npm run build
+
+------------------------------------------------------------------------
+
+## 🌍 Deploy en GitHub Pages
+
+npm run deploy
+
+------------------------------------------------------------------------
+
+## 👨‍💻 Autor
+
+Sebastian Madrigal
+
+------------------------------------------------------------------------
+
+## 📌 Notas
+
+Proyecto académico para práctica de React.
